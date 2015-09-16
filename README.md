@@ -36,5 +36,23 @@ Docker came around and made a nice, easy interface to use container technology. 
 
 See the [installation doc](https://docs.docker.com/installation)s and click on your platform. Docker runs on Linux and Windows Server 2016 Preview. Currently to run it on Windows or Mac OSX you need to use boot2docker or docker-machine. This will install a lightweight Linux instance running in a virtual machine. You can use boot2docker or docker-machine to manage this instance.
 
+# Client Server Architeture
 
+Clients = Docker cli or Kitematic
+Server = Docker Engine (Daemon)
 
+# Images
+
+Images are a layered file system that creates a new layer for each item installed.
+
+# Repository for Images
+
+See [Docker Hub](https://hub.docker.com).
+
+# Volumes
+
+Decouple the data that is stored in the container so that you can share data between containers or persist it even if the container is deleted or not running.
+
+# Networking
+
+Containers have their onw network stack and IP addresses. IP address of the container is not public. It must go through the host.
