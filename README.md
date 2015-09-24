@@ -38,8 +38,8 @@ See the [installation doc](https://docs.docker.com/installation)s and click on y
 
 # Client Server Architeture
 
-Clients = Docker cli or Kitematic
-Server = Docker Engine (Daemon)
++ Clients = Docker cli or Kitematic
++ Server = Docker Engine (Daemon)
 
 # Images
 
